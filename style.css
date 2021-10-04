@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Montserrat', sans-serif ;
+    
+}
+body{
+    margin: 5rem;
+    background-color:#141c2f;
+    color: white;
+}
+
+
+.sec1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* section 2 styling */
+.input_field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+input{
+    padding: 8px;
+    border-radius: 5px;
+    outline-style: none;
+    width: 30%;
+}
+button {
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    margin-left: 15px;
+    transition: 0.3s;
+    background-color:rgb(37,99,180);
+    color: white;
+    font-weight: bolder;
+}
+button:hover {
+    letter-spacing: 3px;
+}
+
+
+.profile_pic{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+}
+
+
+.profile{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 1.5rem;
+    
+}
+
+.profile_sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    } 
+
+.profile_sec > * {
+    margin-top: 0.75rem;
+
+}
+
+
+.stat{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem 2rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.location::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f276";
+    margin-right: .5rem;
+    font-size: .75rem;
+}
+.tweet::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f079";
+    margin-right: .5rem;
+    font-size: .75rem;
+}
+
+.Link::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0c1";
+    margin-right: .5rem;
+    font-size: .75rem;
+}
+.org::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f1ad";
+    margin-right: .5rem;
+    font-size: .75rem;
+}
+.row-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding-right:1rem;
+    
+}
+.row-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
